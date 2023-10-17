@@ -17,3 +17,7 @@ go to the directory where you have Lat-Lon
 ### Rate Limiting
 
 Lat-Lon includes rate limiting to prevent abuse of the IPStack API. The default rate limit is set to 5 requests per minute. If you exceed the rate limit, you will receive a "Rate limit exceeded" message. You can adjust the rate limit settings in the task.py file.
+
+### Security
+
+To improve security, I am using the 'dotenv' library to load sensitive environment variables from a hidden '.env' file. This helps in keeping sensitive information, such as API keys and credentials, out of the codebase and away from public repositories.
