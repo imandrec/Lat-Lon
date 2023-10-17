@@ -1,6 +1,6 @@
 # Getting Started with Latitude Longitude Program
 
-This project was created using Docker
+This project was created with python
 
 You need to have Docker install in your machine
 ### `git clone https://github.com/imandrec/Lat-Lon.git`
